@@ -1,5 +1,4 @@
 FROM golang:latest
-RUN go mod init
 RUN mkdir /app
 ADD . /app/
 WORKDIR /app
